@@ -17,7 +17,7 @@ function addNavigationLogic() {
       // Enviar formulário para os primeiros 50 itens
       newChoices.push(listItem.createChoice(choices[i].getValue(), FormApp.PageNavigationType.SUBMIT));
     } else {
-      // Pular para a seção 2 para os itens restantes
+      // Pular para a seção 2 para os itens restante
       newChoices.push(listItem.createChoice(choices[i].getValue(), FormApp.PageNavigationType.CONTINUE));
     }
   }
